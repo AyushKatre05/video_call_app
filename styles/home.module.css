@@ -1,10 +1,10 @@
 /* home.module.css */
 .homeContainer {
-    @apply w-4/12 mx-auto p-6 border border-white rounded mt-16 text-white flex flex-col items-center bg-gray-900;
+    @apply w-full md:w-8/12 lg:w-6/12 xl:w-4/12 mx-auto p-6 border border-white rounded mt-8 md:mt-16 text-white flex flex-col items-center bg-gray-900;
   }
   
   .homeTitle {
-    @apply text-3xl text-center font-semibold mb-6;
+    @apply text-2xl md:text-3xl text-center font-semibold mb-4 md:mb-6;
   }
   
   .enterRoom {
@@ -12,18 +12,18 @@
   }
   
   .enterInput {
-    @apply text-black text-lg p-2 rounded w-9/12 mb-3;
+    @apply text-black text-lg p-2 rounded w-10/12 sm:w-9/12 mb-2 md:mb-3;
   }
   
   .joinButton {
-    @apply bg-blue-500 text-white py-2 px-6 rounded hover:bg-blue-600 transition;
+    @apply bg-blue-500 text-white py-2 px-4 md:px-6 rounded hover:bg-blue-600 transition;
   }
   
   .separatorText {
-    @apply my-6 text-xl;
+    @apply my-4 md:my-6 text-lg md:text-xl;
   }
   
   .createButton {
-    @apply bg-green-500 text-white py-2 px-6 rounded hover:bg-green-600 transition;
+    @apply bg-green-500 text-white py-2 px-4 md:px-6 rounded hover:bg-green-600 transition;
   }
   

@@ -22,7 +22,7 @@ export default function Home() {
 
   return (
     <div className={styles.homeContainer}>
-      <h1 className={styles.homeTitle}>Video Caller</h1>
+      <h1 className={styles.homeTitle}>Google Meet Clone</h1>
       <div className={styles.enterRoom}>
         <input
           className={styles.enterInput}
