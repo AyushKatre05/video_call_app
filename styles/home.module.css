@@ -1,0 +1,29 @@
+/* home.module.css */
+.homeContainer {
+    @apply w-4/12 mx-auto p-6 border border-white rounded mt-16 text-white flex flex-col items-center bg-gray-900;
+  }
+  
+  .homeTitle {
+    @apply text-3xl text-center font-semibold mb-6;
+  }
+  
+  .enterRoom {
+    @apply flex flex-col items-center w-full;
+  }
+  
+  .enterInput {
+    @apply text-black text-lg p-2 rounded w-9/12 mb-3;
+  }
+  
+  .joinButton {
+    @apply bg-blue-500 text-white py-2 px-6 rounded hover:bg-blue-600 transition;
+  }
+  
+  .separatorText {
+    @apply my-6 text-xl;
+  }
+  
+  .createButton {
+    @apply bg-green-500 text-white py-2 px-6 rounded hover:bg-green-600 transition;
+  }
+  
